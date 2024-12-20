@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medkit</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+</head>
+
+<body>
+  <div class="topnav">
+    <div class="container mt-3 mb-1">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="logo-image">
+            <img src="images/logo.png" width="175px" ; alt="medkit" ;>
+          </div>
+        </div>
+        <div class="col-md-7">
+          <div class="row">
+            <div class="col-md-4 col-6">
+              <div class="box">
+                <i class="bi bi-building"></i>
+                <div class="box-1">
+                  <h6>88 Sunset road</h6>
+                  <p>Kuta, Bali 80225</p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-md-4 col-6">
+              <div class="box ">
+                <i class="bi bi-telephone-fill"></i>
+                <div class="box-1">
+                  <h6>Call Us</h6>
+                  <p>+62 234 6754345</p>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <button type="button " class="btn btn-primary btn-lg float-end">Book Appointment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--topnav-end-->
+  <div class="menu-bar pb-3 navbar-expand-lg">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-md-9 col-4">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  ">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Home
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Our Doctor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Appointment</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Contact
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-8">
+          <div class="social-media d-flex float-end ">
+            <p>Follow us :</p>
+            <div class="social ">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-instagram"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--menu-bar-end-->
+
+  <section class="hero-slider" style="background: url('./images/slider.jpg');">
+    <div class="container">
+      <div class="col-md-5 slider-content">
+        <h1 class="main-heading comman-head text-white">Healthtcare for your Family's Health</h1>
+        <p>Emergency service with international standard.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <button type="button" class="btn btn-success"><i class="bi bi-telephone-fill"></i> Contact Us</button>
+          </div>
+          <div class="col-md-6">
+            <div class="btn-2">
+              <button type="button" class="btn btn-light"><i class="bi bi-bag-plus-fill"></i> Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <div class="card-cloxks">
+    <div class="container">
+      <div class="cards ">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card shadow">
+              <img src="images/card1.jpg" alt="avatar" class="rounded-circle img-fluid mt-3" style="width: 80px;">
+
+              <h5 class="card-title text-center ">Dental Service</h5>
+              <p class="card-text text-center">Get quality medicines that are officially certified for you.</p>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary">Learn More</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <img src="images/card2.jpg" alt="avatar" class="rounded-circle img-fluid mt-3" style="width: 80px;">
+
+              <h5 class="card-title text-center ">Primary Care</h5>
+              <p class="card-text text-center">Get quality medicines that are officially certified for you.</p>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary">Learn More</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow">
+              <img src="images/card3.jpg" alt="avatar" class="rounded-circle img-fluid mt-3" style="width: 80px;">
+
+              <h5 class="card-title text-center ">Vaccination</h5>
+              <p class="card-text text-center">Get quality medicines that are officially certified for you.</p>
+              <div class="text-center">
+                <button type="button" class="btn btn-primary">Learn More</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="emerg">
+              <div class="card shadow">
+
+
+                <h5 class=" text-center text-white pt-3">Emergency Service</h5>
+                <p class="card-text text-center text-gray pb-4">Call our accident & emergency department to get the
+                  fastest & closest first aid you need.</p>
+                <div class="call-us">
+                  <p class="text-center pt-3">CALL US NOW</p>
+                  <h4 class="text-center pt-3 pb-2">+62 361 234253</h4>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--section-end-->
+  <section class="medi-services comman-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2 class="comman-head ">Medical Clinic that you can trust</h2>
+          <p class="comman-p">Getting an accurate diagnosis can be one of
+            the most impactful experiences that you can
+            have — especially if you've been in search
+            of that answer for a while. We can help you get there.</p>
+
+          <div class="hour pt-4 mb-4">
+            <div class="box d-flex ">
+              <i class="bi bi-hospital shadow mb-5"></i>
+              <div class="box-1">
+                <h5>24 Hour Healthcare Services</h5>
+                <p class=" comman-p pt-1">We are committed to your health and well-being,<br> offering the very latest
+                  in comprehensive evidence-based care.</p>
+              </div>
+            </div>
+            <div class="box d-flex mt-4">
+              <i class="bi bi-hospital shadow mb-5"></i>
+              <div class="box-1">
+                <h5>24 Hour Healthcare Services</h5>
+                <p class=" comman-p pt-1">We are committed to your health and well-being,<br> offering the very latest
+                  in comprehensive evidence-based care.</p>
+              </div>
+            </div>
+            <div class="box d-flex mt-4">
+              <i class="bi bi-hospital shadow mb-5"></i>
+              <div class="box-1">
+                <h5>24 Hour Healthcare Services</h5>
+                <p class=" comman-p pt-1">We are committed to your health and well-being,<br> offering the very latest
+                  in comprehensive evidence-based care.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="sec-img">
+            <img src="images/doctor2.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section-end-->
+  <section class="features comman-space ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <div class="exp ">
+            <i class="bi bi-hand-thumbs-up"></i>
+            <h3 class="fw-bolder pt-3">20+</h3>
+            <p>Years Of Experience</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="exp ">
+            <i class="bi bi-people"></i>
+            <h3 class="fw-bolder pt-3">8,450 +</h3>
+            <p>Happy Patients</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 ">
+          <div class="exp">
+            <i class="bi bi-person-add"></i>
+            <h3 class="fw-bolder pt-3">1,250 +</h3>
+            <p>Doctors and Staff</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-6">
+          <div class="exp ">
+            <i class="bi bi-hospital"></i>
+            <h3 class="fw-bolder pt-3">425 +</h3>
+            <p>Hospital Rooms</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section-end-->
+
+  <section class="services comman-space">
+    <div class="container">
+      <h2 class=" comman-head text-center">We Provides Best Healthcare Services</h2>
+      <p class="comman-p text-center pt-2">Getting an accurate diagnosis can be one of the most impactful experiences
+        that you can have.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box d-flex shadow mt-5">
+            <div class="ser-hos shadow ">
+              <i class="bi bi-hospital "></i>
+            </div>
+            <div class="box-1">
+              <h5>Diagnostic Services</h5>
+              <p class=" comman-p pt-3">We are committed to your health and well-being, offering the very latest in
+                extensive evidence based care.</p>
+            </div>
+          </div>
+          <div class="box d-flex shadow mt-3">
+            <div class="ser-hos shadow ">
+              <i class="bi bi-hospital "></i>
+            </div>
+            <div class="box-1">
+              <h5>Laboratory & Radiology</h5>
+              <p class=" comman-p pt-3">We are committed to your health and well-being, offering the very latest in
+                extensive evidence based care.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box d-flex shadow mt-5">
+            <div class="ser-hos shadow ">
+              <i class="bi bi-hospital "></i>
+            </div>
+            <div class="box-1">
+              <h5>Diagnostic Services</h5>
+              <p class=" comman-p pt-3">We are committed to your health and well-being, offering the very latest in
+                extensive evidence based care.</p>
+            </div>
+          </div>
+          <div class="box d-flex shadow mt-3">
+            <div class="ser-hos shadow ">
+              <i class="bi bi-hospital "></i>
+            </div>
+            <div class="box-1">
+              <h5>Laboratory & Radiology</h5>
+              <p class=" comman-p pt-3">We are committed to your health and well-being, offering the very latest in
+                extensive evidence based care.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="book mt-5">
+
+            <h5 class="text-white">Opening Hours</h5>
+            <p class="text-white display-6 pt-4">Far far away, behind the word<br> mountains, far from the countries<br>
+              Vokalia and Consonantia, there live the blind texts.</p>
+            <div class="row">
+              <div class="col-md-6">
+                <p class="text-white display-6 pt-4">Mon-Fri</p>
+              </div>
+              <div class="col-md-6">
+                <div class="time pt-4 float-end">
+                  <p class="text-white display-6 "><i class="bi bi-clock"></i>6am - 10pm</p>
+                </div>
+              </div>
+            </div>
+            <hr style="color:white;">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="text-white display-6 ">Sat-Sun</p>
+              </div>
+              <div class="col-md-6">
+                <div class="time  float-end">
+                  <p class="text-white display-6 "><i class="bi bi-clock"></i>6am - 8pm</p>
+                </div>
+              </div>
+              <hr style="color:white;">
+            </div>
+            <div class="book-btn text-center pt-4">
+              <button type="button" class="btn btn-light"><i class="bi bi-telephone-fill "></i>Book Appointment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section-end-->
+  <section class="medication comman-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="mediction-img">
+            <img src="images/doctor4.jpg">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h1 class="comman-head mt-5"> Find the right<br> Medication for you</h1>
+          <p class="comman-p pt-3">Getting an accurate diagnosis can be one of the most impactful
+            experiences that you can have. We can help you get there.</p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="comman-head accordion-header" id="headingOne">
+                <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  We Have The Medical Specialists
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p> Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                    live the blind texts.</p>
+                </div>
+              </div>
+            </div>
+            <hr style="color:#6F747E;">
+            <div class="accordion-item">
+              <h2 class="comman-head accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Quality and Safety at Medkit Clinic
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia.
+
+                    It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                </div>
+              </div>
+            </div>
+            <hr style="color:#6F747E;">
+            <div class="accordion-item ">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo " aria-expanded="false" aria-controls="collapseTwo">
+                  Diseases and Conditions
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p> Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                    life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
+                    far World of Grammar.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <hr style="color:#6F747E;">
+          <div class="play">
+            <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-2 pt-3">
+                  <i class="bi bi-play-circle-fill"></i>
+                </div>
+                <div class="video col-md-5 pt-5">
+                  <h6 class="">Watch the video</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!--section-end-->
+  <section class="appointment comman-space">
+    <div class="empty"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 pt-5">
+          <h1 class="comman-head pt-5">Make Appointment</h1>
+          <p class="comman-p display-6 pt-3">Getting an accurate diagnosis can be one
+            of the most impactful experiences that you can have — especially
+            if you've been in search of that answer for a while. We can help
+            you get there.</p>
+          <div class="row pt-4">
+            <div class="col-md-6 ">
+              <h5 class="">Denpasar, Bali</h5>
+              <div class="locate d-flex pt-2">
+                <div class="pin pt-3">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div class="address">
+                  <p class="display-6">Jl. Niti Mandala, Renon, Bali, Indonesia – 80225</p>
+                </div>
+              </div>
+              <div class="locate d-flex ">
+                <div class="pin ">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div class="address">
+                  <p class="display-6">
+                    +62 361 234 4567</p>
+                </div>
+              </div>
+              <div class="locate d-flex ">
+                <div class="pin ">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="address">
+                  <p class="display-6">contact@domain.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h5 class="">Seminyak, Bali</h5>
+              <div class="locate d-flex pt-2">
+                <div class="pin pt-3">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div class="address">
+                  <p class="display-6">Jl. Oberoi X 69, Kuta, Bali, Indonesia – 80234</p>
+                </div>
+              </div>
+              <div class="locate d-flex ">
+                <div class="pin ">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div class="address">
+                  <p class="display-6">
+                    +62 361 234 4567</p>
+                </div>
+              </div>
+              <div class="locate d-flex ">
+                <div class="pin ">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="address">
+                  <p class="display-6">contact@domain.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="inputs shadow bg-white">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Your Name" aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3 ">
+              <input type="email" class="form-control" placeholder="Your Email" aria-label="Username"
+                aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+              <input type="date" class="form-control" placeholder="dd/mm/yyyy"
+                aria-label="Amount (to the nearest dollar)">
+
+            </div>
+
+            <div class="input-group mb-3">
+              <select class="form-control select-option">
+                <option value="">Select Option</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+              </select>
+            </div>
+
+            <div class=" input-group mb-3">
+              <textarea class="form-control" placeholder="Your Message" style="height: 200px;"></textarea>
+            </div>
+
+            <div class="make">
+              <button type="button" class="btn btn-primary">Make an Appointment</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section-end-->
+  <section class="partners comman-space">
+    <div class="container">
+      <h5 class="text-center">Our Partners</h5>
+
+      <div class="row">
+        <div class="col-md-3">
+          <img src="images/tree.png" alt="old oak">
+        </div>
+        <div class="col-md-3">
+          <img src="images/vital.png" alt="vital">
+        </div>
+        <div class="col-md-3">
+          <img src="images/heart.png" alt="heart care">
+        </div>
+        <div class="col-md-3">
+          <img src="images/life.png" alt="life care">
+        </div>
+      </div>
+  </section>
+  <!--secition-end-->
+  <section class="stay comman-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <h2 class="">Stay connected with Medkit</h2>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-5 d-flex justify-content-end">
+
+          <div class="face rounded-circle bg-white">
+            <i class="bi bi-facebook"></i>
+          </div>
+          <div class="face rounded-circle bg-white">
+            <i class="bi bi-twitter"></i>
+          </div>
+          <div class="face rounded-circle bg-white">
+            <i class="bi bi-instagram"></i>
+          </div>
+          <div class="face rounded-circle bg-white">
+            <i class="bi bi-youtube"></i>
+          </div>
+          <div class="face rounded-circle bg-white">
+            <i class="bi bi-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section-end-->
+  <section class="information comman-space">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <h5 class="">Quick Links</h5>
+          <p class="info-p display-6 pt-3">Home</p>
+          <p class="info-p display-6">About Us</p>
+          <p class="info-p display-6">Services</p>
+          <p class="info-p display-6">Contact</p>
+        </div>
+
+        <div class="col-md-2">
+          <h5 class="">Other Pages</h5>
+          <p class="info-p display-6 pt-3">Job Vacancy</p>
+          <p class="info-p display-6">Charity Program</p>
+          <p class="info-p display-6">Privacy & Policy</p>
+          <p class="info-p display-6">Terms of Use</p>
+        </div>
+
+        <div class="col-md-3">
+          <h5 class="">Contact Info</h5>
+          <div class="locate d-flex pt-3">
+            <div class="pin pt-2">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="address">
+              <p class="display-6">Jl. Niti Mandala, Renon, Bali, Indonesia – 80225</p>
+            </div>
+          </div>
+          <div class="locate d-flex ">
+            <div class="pin ">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="address">
+              <p class="display-6">
+                +62 361 234 4567</p>
+            </div>
+          </div>
+          <div class="locate d-flex ">
+            <div class="pin ">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div class="address">
+              <p class="display-6">contact@domain.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="">Make an Appointment</h5>
+          <p class="get-p display-6 pt-2">Getting an accurate diagnosis
+            can be one of the<br> most impactful experiences that
+            you can have.</p>
+          <button type="button" class=" info-btn btn btn-primary mt-3"><i class="bi bi-telephone-fill"></i>
+            +62 361 234 567</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--section-end-->
+  <section class="end mb-5 ">
+    <div class="container mt-3">
+      <hr style="color:#7790A3;">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="logo-image">
+            <img src="images/logo.png" width="150px" ; alt="medkit" ;>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <p class="display-6">
+            Medkit Health & Medical Template Kit by Jegtheme</p>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+          <p class="display-6">Copyright &#169; 2020. All rights reserved.</p>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $('.multiple-items').slick({
+      infinite: true,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      arrows: false,
+      // dots:true
+    });
+  </script>
+
+</body>
+
+</html>
